@@ -24,13 +24,11 @@
     }
   ],
   "dependencies": {
-    "esprima": "~1.0.2",
-    "estraverse": "~0.0.4",
-    "escope": "~0.0.13"
-  },
-  "devDependencies": {
-    "istanbul": "~0.1.33",
-    "jasmine-node": "^1.14.5"
+    "escope": "3.6.0",
+    "esprima": "4.0.1",
+    "estraverse": "4.2.0",
+    "istanbul": "0.1.33",
+    "jasmine-node": "1.14.5"
   },
   "scripts": {
     "test": "node test/run.js && npm run-script coverage",
